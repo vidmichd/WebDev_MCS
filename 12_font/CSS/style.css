@@ -1,0 +1,19 @@
+@font-face {
+	src: url(../font/ALS_Gorizont_Medium_Expanded_1.0.otf);
+	font-family: 'Gorizont';
+	font-weight: normal;
+}
+
+.heading h1{
+	font-size: 50px;
+	font-weight: normal;
+	font-family: 'Gorizont', serif;
+}
+
+.paragraph p{
+	font-family: 'Gorizont', serif;
+}
+
+.paragraphTwo p{
+	font-family: 'Gorizont', serif;
+}
