@@ -1,0 +1,67 @@
+@font-face {
+	src: url(../font/ALS_Gorizont_Medium_Expanded.otf);
+	font-family: 'Gorizont';
+	font-weight: normal;
+}
+
+.header{
+	background-color: #FFE138;
+	line-height: 300%;
+}
+
+.header h1{
+	margin-left: 40px;
+	font-size: 32px;
+	line-height: 400%;
+	text-decoration-color: #FFFFFF;
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+.header img{
+	width: 10%;
+	height: 10%;
+	margin-left: 40px;
+	background-size: contain;
+}
+.image{
+	height: 480px;
+	background-image: url(../img/img.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.divider{
+	text-transform: uppercase;
+	line-height: 300%;
+	background-color: #FFE138;
+	font-family: 'Gorizont', sans-serif;
+	text-decoration: none;
+}
+
+.divider a{
+	margin-left: 40px;
+}
+
+.box{
+	height: 50px;
+}
+
+.two{
+	font-size: 16px;
+	line-height: 200%;
+	margin-left: 40px;
+	text-decoration-color: #FFFFFF;
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+.text{
+	font-family: 'Helvetica';
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.footerText{
+	font-family: 'Helvetica';
+	margin-left: 40px;
+	line-height: 300%;
+}
