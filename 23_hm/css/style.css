@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+.page{
+	width: 1440px;
+	height: 1024px;
+}
+
+.headerText{
+	box-sizing: border-box;
+	background-color: red;
+	padding:20px 20px 20px;
+
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	text-size: 20px;
+	line-height: 23px;
+}
+
+.card{
+	display: inline-block;
+	margin: auto;
+}
+
+.card h1{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 41px;
+
+}
+
+.card p{
+	font-family: 'Times New Roman', serif;
+	font-size: 20px;
+	line-height: 23px;
+
+}
+
+.card.first{
+	width: 400px;
+	height: 800px;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+
+	padding: 33px;
+	margin: 52px 25px 52px 70px;
+}
+
+.card.second{
+	width: 400px;
+	height: 800px;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+
+	padding: 33px;
+	margin: 52px 25px 52px 25px;
+}
+
+.card.third{
+	width: 400px;
+	height: 800px;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	
+	padding: 33px;
+	margin: 52px 70px 52px 25px;
+}
+
+.footer{
+	background-color: red;
+	box-sizing: border-box;
+	padding:20px 20px 20px;
+	
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+}
