@@ -1,0 +1,16 @@
+@import url(reset.css);
+
+.flex-container{
+	background-color: blue;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	}
+
+.flex_item{
+	height: 400px;
+	width: 400px;
+	background-color: orange;
+}
