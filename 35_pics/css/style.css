@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+.heading{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #FFE138;
+}
+
+.columns{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 80vw;
+	margin: 70px auto;
+	min-height: 500px;
+	font-size: 20px;
+}
+
+.column {
+	width: calc((100% - 80px)/3);
+	background-color: white;
+	border: 1px solid black;
+	line-height: 25px;
+	height: 100%;
+}
+
+.text{
+	padding: 30px;
+	font-size: 1em;
+}
+
+.text h1{
+	margin-bottom: 14px;
+	font-weight: 700;
+}
+
+.image.one{
+	height: 20vh;
+	background-size: cover;
+	background-position: center; 
+	background-image: url(../img/MetaSideTable.png);
+	padding-bottom: 100%;
+}
+
+.image.two{
+	height: 20vh;
+	background-size: cover;
+	background-position: center; 
+	background-image: url(../img/ClickShelf.png);
+	padding-bottom: 100%;
+}
+
+.image.three{
+	height: 20vh;
+	background-size: cover;
+	background-position: center; 
+	background-image: url(../img/FloatShelf.png);
+	padding-bottom: 100%;
+}
