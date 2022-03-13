@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+.heading{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	line-height: 29px;
+	background-color: #0000FF;
+	padding: 35px 30px;
+	text-align: left;
+	color: white;
+}
+
+.cards{
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	text-align: center;
+}
+
+.card{
+	width: 100%;
+	margin: 20px;
+	height: calc((100% - 60px)/4);
+	border: 5px solid black;
+
+	font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	padding: 40px;
+	font-size: 25px;
+	line-height: 29px;
+}
+
+@media screen and (min-width: 600px)
+{
+	.cards{
+	align-content: center;
+	justify-content: space-between;
+	align-items: space-between;
+	margin: 50px 10vw;
+}
+
+	.card{
+	width: calc((100% - 80px)/2);
+	min-width: 300px;
+	margin: 20px 20px;
+	box-sizing: border-box;
+	}
+
+	.cards h1 {
+	font-size: 50px;
+	line-height: 58px;
+	font-weight: bold;
+	}
+}
