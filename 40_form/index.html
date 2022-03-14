@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<meta description="Form">
+	<meta keywords="Form">
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+	<div class="page">
+		<header>
+		<div class="heading">
+			<p class="item one">Посылки</p>
+			<p class="item two">Упаковка</p>
+			<p class="item three">Подписка</p>
+			<p class="item four">Меню</p>
+		</div>
+		</header>
+
+		<main>
+		<div class="main">
+			<div class="card">
+			<form action="https://formspree.io/f/mayvbqjj">
+
+				<fieldset class="personal">
+					<label id="name" for="name">Имя</label>
+					<input type="text" name="name" placeholder="Ваше имя">
+
+					<label for="email">E-mail</label>
+					<input type="email" name="email" placeholder="E-mail">
+
+					<label for="City">Город</label>
+					<input type="text" name="city" placeholder="Ваш город">
+
+					<label for="phone">Телефон</label>
+					<input type="phone" name="phone" placeholder="Ваш телефон">
+				</fieldset>
+
+				<fieldset class="present">
+					<label for="present">Подарок</label>
+					<select name="present">
+						<option value="socks">Носки</option>
+						<option value="cofee">Кофе</option>
+						<option value="tea">Чай</option>
+					</select>
+
+					<label for="copy"></label>
+					<textarea name="copy">Пожелания к упаковке</textarea>
+
+					<label for="delivery">Cпособ доставки</label>
+					<input type="radio" name="delivery" value="self" checked="true"><span>Самовывоз</span>
+					<input type="radio" name="delivery" value="mail"><span>Почтой России</span>
+
+					<div><input type="checkbox" name="rules" checked="true"><span>Я согласен рассказать о своем адресе</span></div>
+				</fieldset>
+
+				<input type="submit">
+			</form>
+			</div>
+		</div>
+		<div class="sucess">
+			<p>ВАША ПОСЫЛКА УЖЕ В ПУТИ!</p>
+		</div>
+		</main>
+
+		<footer>
+			<div class="heading">
+				<p class="item five">СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</p>
+				<p class="item six">© 2021</p>
+			</div>
+		</footer>
+</body>
+
+</html>

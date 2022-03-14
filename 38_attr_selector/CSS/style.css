@@ -1,0 +1,68 @@
+@import url(reset.css);
+
+.page{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+	width: 80%;
+	margin: auto;
+}
+
+input, select, textarea{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	color: lightgrey;
+	border: 1px solid black;
+}
+
+input {
+	height: 30px;
+}
+
+label, span{
+	font-size: 20px;
+	line-height: 2rem;
+}
+
+label{
+	display: block;
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+
+input[type="radio"], input[input="checkbox"]
+{
+	display: inline-block;
+	width: 20px;
+	vertical-align: middle;
+}
+
+textarea{
+	height: 300px;
+}
+
+input[type="submit"] {
+	background-color: black;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: white;
+	}
+
+@media screen and (min-width: 720px)
+{
+	form{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.column{
+		width: 40%;
+	}
+}
