@@ -1,0 +1,507 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../font/SuisseIntl-Medium.otf);
+	font-family: 'Suisse Int';
+	font-weight: 300;
+
+}
+
+@font-face {
+	src: url(../font/SuisseIntl-SemiBold.otf);
+	font-family: 'Suisse Int';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url(../font/SuisseIntl-Bold.otf);
+	font-family: 'Suisse Int';
+	font-weight: 500;
+}
+
+@font-face{
+	src: url(../font/regal.ttf);
+	font-family: 'Regal';
+	font-weight: 200;
+}
+
+@font-face{
+	src: url(../font/SuisseIntl-Regular.otf);
+	font-family: 'Suisse Int';
+	font-weight: 200;
+}
+
+.page{
+	background-color: #000000;
+}
+
+h1{
+	font-family: Regal, serif;
+	font-size: 50px;
+	line-height: 50px;
+	color: black;
+	text-align: center;
+}
+
+h2{
+	font-family: Suisse Int, sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+}
+
+h3{
+	font-family: Regal, serif;
+	font-size: 24px;
+	line-height: 24px;
+	color: white;
+	font-weight: SemiBold;
+	text-align: center;
+}
+
+.active{
+	color: #A37846;
+}
+
+.heading p:hover{
+	color: #A37846;
+}
+
+.heading{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+	font-family: Suisse Int, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	background-color: #000000;
+
+	padding: 30px 0px 40px 0px;
+	margin: auto;
+}
+
+.logo{
+	width: 95px;
+	background-image: url(../img/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+
+.menu{
+	display: flex;
+
+}
+
+.menu p{
+	flex-grow: 8;
+	padding: 0px 15px;
+}
+
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.search p{
+	padding: 0px 5px;
+}
+
+.icon{
+	padding: 0px 5px;
+	width: 16px;
+	background-image: url(../img/search.png);
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.info{
+	width: 70%;
+	padding: 18px;
+	box-sizing: border-box;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
+	font-family: Suisse Int, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.money {
+	display: flex;
+	justify-content: space-between;
+}
+
+.money.one{
+	margin-right: 12px;
+}
+
+.moneySymbol {
+	color: #9CA1A9;
+	margin-right: 8px;
+
+}
+
+.que{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.switch {
+	width: 48px;
+	height: 20px;
+	background-color: #E6E6E6;
+	padding: 2px;
+	border-radius: 16px;
+}
+
+.circle {
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.main{
+	box-sizing: border-box;
+	width: 70%;
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 60px;
+}
+
+.news{
+	display: flex;
+	flex-direction: column;
+}
+
+.h1News{
+	padding: 45px 65px 30px 65px;
+	background-color: white;
+	border-radius: 10px;
+	border: 5px solid #A37846;
+}
+
+.h1News h1{
+	margin-bottom: 54px;
+}
+
+
+.date{
+	font-family: Suisse Int, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	color: #9CA1A9;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 0.2px;
+}
+
+
+
+.photoCopy{
+	font-family: Suisse Int, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.newsBigPhoto{
+	height: 700px;
+	border-radius: 12px;
+	background-image: url(../img/war.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 24px;
+}
+
+.shadow{
+	height: 700px;
+	box-sizing: border-box;
+	border-radius: 12px;
+	position: relative;
+	bottom: 0;
+	margin: auto;
+	background: linear-gradient(0deg, rgba(0,0,0,0.8) 10%, rgba(0,0,0,0.37718837535014005) 44%, rgba(0,0,0,0) 66%, rgba(0,0,0,0) 100%);
+}
+
+.textShadow{
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	bottom: -72%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.textShadow h2{
+	margin-top: 26px;
+}
+
+.textShadow h3{
+	margin-top: 40px;
+}
+
+
+.efir p{
+	color: rgba(255, 255, 255, 0.44);
+	font-family: Suisse Int, sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	line-height: 13px;
+	margin-top: 24px;
+}
+
+.cards{
+	margin-top: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card{
+	width: calc((100% - 32px)/3);
+	background-color: white;
+	border-radius: 12px;
+}
+
+.textBlock{
+	padding: 16px;
+}
+
+.mediumImage.one{
+	background-image: url(../img/1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	border-radius: 12px 12px 0px 0px;
+	height: 245px;
+}
+
+.mediumImage.two{
+	background-image: url(../img/2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	border-radius: 12px 12px 0px 0px;
+	height: 245px;
+}
+
+.mediumImage.three{
+	background-image: url(../img/3.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	border-radius: 12px 12px 0px 0px;
+	height: 245px;
+}
+
+.tag{
+	font-family: Suisse Int, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: #A37846;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: left;
+	margin-bottom: 12px;
+}
+
+.description{
+	height: 150px;
+}
+
+.bold{
+	font-family: Suisse Int, sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	color: black;
+	text-align: left;
+	margin-bottom: 4px;
+}
+
+.moreText{
+	font-family: Regal, serif;
+	font-size: 20px;
+	line-height: 23px;
+	color: black;
+	text-align: left;
+	margin-bottom: 32px;
+}
+
+.when{
+	font-family: Suisse Int, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #9CA1A9;
+	font-weight: 200;
+	text-align: left;
+	letter-spacing: 0.2px;
+}
+
+.manyNews{
+	padding: 32px;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	margin-top: 24px;
+	border-radius: 12px;
+	border: 1px solid #C7C7C7;
+}
+
+.left{
+	width: calc((100% - 36px)/2);
+	height: 350px;
+}
+
+.right{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	width: calc((100% - 36px)/2);
+	height: 350px;
+}
+
+.rightNews{
+	width: calc((100% - 24px)/2);
+	height: calc((100% - 24px)/2);
+}
+
+h5{
+	font-family: Regal, serif;
+	font-size: 35px;
+	line-height: 40px;
+	color: black;
+	text-align: left;
+	height: 300px;
+	margin-bottom: 32px;
+	box-sizing: border-box;
+}
+
+h6{
+	font-family: Regal, serif;
+	font-size: 20px;
+	line-height: 24px;
+	color: black;
+	text-align: left;
+	height: 115px;
+	margin-bottom: 32px;
+}
+
+footer{
+	margin-top: 48px;
+}
+
+.down{
+	margin: auto;
+	width: 65%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footerCol{
+	width: calc((100% - 150px)/5);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 350px;
+}
+
+.headFooter{
+	width: 100%;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: white;
+	font-family: Suisse Int, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+.textFooter{
+}
+
+.footText{
+	text-align: Left;
+	color: white;
+	font-family: Suisse Int, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 300;
+}
+
+.footText:hover{
+	color: #A37846;
+}
+
+hr{
+	border-top: 0.5px solid white;
+	width: 70%;
+	margin-bottom: 32px;
+}
+
+.copy{
+	width: 70%;
+	color: white;
+	font-family: Suisse Int, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 300;
+	text-align: left;
+	margin: auto;
+	padding-bottom: 64.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

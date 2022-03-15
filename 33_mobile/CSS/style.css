@@ -36,7 +36,7 @@
 	.cards{
 	align-content: center;
 	justify-content: space-between;
-	align-items: space-between;
+	align-items: stretch;
 	margin: 50px 10vw;
 }
 
@@ -44,6 +44,7 @@
 	width: calc((100% - 80px)/2);
 	min-width: 300px;
 	margin: 20px 20px;
+	align-items: stretch;
 	box-sizing: border-box;
 	}
 

@@ -2,8 +2,8 @@
 
 .container{
 background-color: white;
+position: fixed;
 display: flex;
-content: fixed;
 padding: 50px;
 justify-content: space-between;
 
@@ -12,6 +12,8 @@ color: #E50043;
 font-size:  50px;
 line-height: 58px;
 }
+
+
 
 .img{
 	background-image: url(../img/evian_origins_logo.png);
@@ -24,7 +26,7 @@ line-height: 58px;
  	align-items: center;
 }
 
-.img p{
+.img h1{
 	font-family: 'Arial', sans-serif;
 	color: #E50043;
 	font-size:  100px;
@@ -42,6 +44,10 @@ line-height: 58px;
 	display: flex;
   	justify-content: center;
  	align-items: center;
+}
+
+main{
+	margin-top: 100px;
 }
 
 .cards{
